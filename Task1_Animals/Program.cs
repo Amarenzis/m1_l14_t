@@ -14,7 +14,7 @@ namespace Task1_Animals
             Cat cat = new Cat();
             cat.ShowInfo();
 
-            Console.WriteLine("");
+            
             //Создание и вызов метода класса Пёс
             Dog dog = new Dog();
             dog.ShowInfo();
@@ -42,6 +42,7 @@ namespace Task1_Animals
             Console.Write("{0} говорит: ", Naming);
             Say();
             Console.Write("!");
+            Console.WriteLine("");
         }           
     }
 
